@@ -1,0 +1,52 @@
+body {
+        color:brown;
+    background-color: lightblue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.test{
+    background-color: rgb(218, 162, 162);
+    color:black;
+    border:5px solid rgb(118, 8, 8);
+
+
+}
+
+
+h1 {
+    color: rgb(119, 5, 5);
+    text-align: center;
+    border:10px solid rgb(118, 8, 8);
+
+
+}
+ol{
+    background-color: azure;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    background-size: contain;
+}
+ul{
+    background-color: rgb(131, 157, 221);
+}
+.t{
+    background-color: rgb(219, 171, 136);
+}
+
+
+label{
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+input[type="text"],input[type="email"],
+input[type="number"],input[type="date"],select,textarea{
+    width:200px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-bottom:5px ;
+    border:1px solid white ;
+
+
+}
