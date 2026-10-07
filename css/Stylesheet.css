@@ -12,6 +12,12 @@ body {
 
 
 }
+main{
+    width:100%;
+    max-width: 400px;
+    margin:0 auto;
+    text-align: left;
+}
 
 
 h1 {
@@ -37,16 +43,23 @@ ul{
 
 label{
     margin-top: 10px;
+    display:inline-block;
     font-weight: bold;
 
 }
-input[type="text"],input[type="email"],
-input[type="number"],input[type="date"],select,textarea{
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select,
+textarea{
     width:200px;
     padding: 5px 10px;
     margin-top: 5px;
     margin-bottom:5px ;
     border:1px solid white ;
+    border-radius: 4px;
+
 
 
 }

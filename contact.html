@@ -7,6 +7,11 @@
     </head>
     
     <body >
+        <nav class="navbar">
+            <a href="index.html">HOME</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">contact</a>
+        </nav>
         <main>
             <h1>contact</h1>
             
@@ -29,26 +34,29 @@
                 <input type="date" id="date" name="date" required>
             
             <br>
-            
+            <label>Gender:</label>
             <label for="male">male</label>
             <input type="radio" id="male" name="gender" value="male"  >
              <label for="female">female</label>
             <input type="radio" id="female" name="gender" value="female" >
             <br>
-            <label for="html">html</label>
-            <input type="checkbox" id="html" name="skills" value="html">
-            <label for="css">css</label>
-            <input type="checkbox" id="css" name="skills" value="css">
-            <label for="java">java</label>
-            <input type="checkbox" id="java" name="skills" value="java">
+            <label >interest:</label>
+            <label for="reading">reading</label>
+            <input type="checkbox" id="reading" name="skills" value="reading">
+            <label for="swimming">swimming</label>
+            <input type="checkbox" id="swimming" name="skills" value="swimming">
+            <label for="drawing">drawing</label>
+            <input type="checkbox" id="drawing" name="skills" value="drawing">
             <br>
-            <label for="country">country</label>
+            <label for="country">country:</label>
             <select name="country" id="country">
                 <option value="1">Egypt</option>
                 <option value="2">German</option>
                 <option value="3">USA</option>
             </select>
             <br>
+            <label >Message:</label>
             <textarea name="text" id="text" rows="4" cols="40" placeholder="text"></textarea>
+            <button type="submit" id="send-btn">send</button>
         </main>
     </body>
